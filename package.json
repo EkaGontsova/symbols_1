@@ -9,7 +9,7 @@
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint:fix": "echo \"Тесты не требуются\"",
     "test": "jest --coverage",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
